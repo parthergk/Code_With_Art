@@ -2,7 +2,7 @@ import MainAbout from "./MainAbout"
 
 const About = () => {
   return (
-    <div className=" px-5">
+    <div className="flex justify-center flex-col mx-auto px-5 max-w-xl">
       <MainAbout/>
     </div>
   )

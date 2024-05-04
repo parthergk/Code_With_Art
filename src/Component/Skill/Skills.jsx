@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import SkillName from "./SkillName";
 import SkillItems from "./SkillItems";
@@ -39,7 +39,7 @@ const Skills = () => {
       className="flex flex-col w-full border mt-5 rounded-t-md">
         <div className="w-full flex p-4 gap-5">
           <div
-            className={`flex items-center gap-2 ${
+            className={` cursor-pointer flex items-center gap-2 ${
               isFrontend ? "contrast-1" : "contrast-0"
             }`}
             onClick={handleFrontendClick}
@@ -47,7 +47,7 @@ const Skills = () => {
             <SkillName logo={FrontendLogo} text="Frontend" />
           </div>
           <div
-            className={`flex items-center gap-2 ${
+            className={`cursor-pointer flex items-center gap-2 ${
               isFrontend ? "contrast-0" : "contrast-1"
             }`}
             onClick={handleBackendClick}
