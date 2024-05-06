@@ -10,7 +10,6 @@ import Contact from "./Contact";
 import MainProjects from "./Project/MainProjects";
 import MainBlogs from "./Blog/MainBlogs";
 import MainAbout from "./MainAbout";
-import cv from "../../public/cv.pdf"
 
 const Skills = React.lazy(() => import("./Skill/Skills"));
 
@@ -23,7 +22,7 @@ const Main = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = {cv};
+    link.href = "/cv.pdf";
     link.download = 'GauravKumar_cv.pdf';
     link.click();
   };
@@ -57,7 +56,6 @@ const Main = () => {
           className="my-6 flex justify-center items-center w-full"
         >
           <Link
-            to="#"
             className="text-center bg-primary-2 w-full border-1 border-zinc-600 relative py-1"
             onClick={downloadCV}
           >
