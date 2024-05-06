@@ -10,6 +10,7 @@ import Contact from "./Contact";
 import MainProjects from "./Project/MainProjects";
 import MainBlogs from "./Blog/MainBlogs";
 import MainAbout from "./MainAbout";
+import cv from "../../public/cv.pdf"
 
 const Skills = React.lazy(() => import("./Skill/Skills"));
 
@@ -22,11 +23,11 @@ const Main = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/cv.pdf';
+    link.href = {cv};
     link.download = 'GauravKumar_cv.pdf';
     link.click();
   };
-
+  
   const activeSection = useSelector((store) => store.subNav.activeSection);
 
   return (
