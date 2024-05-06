@@ -22,8 +22,8 @@ const Main = () => {
 
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = 'cv.pdf';
-    link.setAttribute('download', 'Gaurav_Kumar_Resume.pdf');
+    link.href = '/cv.pdf';
+    link.download = 'GauravKumar_cv.pdf';
     link.click();
   };
 
