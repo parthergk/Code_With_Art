@@ -20,7 +20,7 @@ const Main = () => {
     duration: 1,
     delay: 1,
   };
-
+  
   const activeSection = useSelector((store) => store.subNav.activeSection);
 
   return (
