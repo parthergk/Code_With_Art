@@ -1,6 +1,6 @@
 import ProjectImage1 from "../assets/Project1.png";
 import ProjectImage2 from "../assets/Project2.png";
-
+import ProjectImage3 from "../assets/Project3.png"
 export const projectData = [
     {
       img: `${ProjectImage1}`,
@@ -17,5 +17,13 @@ export const projectData = [
       description:
         "GoAssignr is a dynamic web app that offers users the ability to generate Assignments and Easys easily on a given topic by utilizing the OpenAI API...",
       tags: ["OpenAi API","React", "Tailwind CSS"],
+    },
+    {
+      img: `${ProjectImage3}`,
+      name: "ChatTerRoom",
+      link : "https://chatterroom.vercel.app/",
+      description:
+        "This project is a real-time chat application built with React, Socket.IO, and Redux for managing state across the app. The app allows users to join chat rooms and exchange messages in real-time.",
+      tags: ["Socket.IO"," React", "Redux", "Tailwind CSS"],
     },
   ];
