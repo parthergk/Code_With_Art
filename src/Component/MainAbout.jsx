@@ -15,9 +15,6 @@ const MainAbout = () => {
         <br/><strong>2. GoAssignr:</strong> A task management system designed to streamline assignment and project tracking.
         <br/><strong>3. ChatterRoom:</strong> A chat application using React.js and Node.js with Socket.IO, deployed on Vercel.
         <br/><strong>4. CodeWithArt:</strong> A portfolio showcasing projects developed with React.js, Tailwind CSS, Framer Motion, and Redux.
-        
-        <br/><br/>Currently working on a video chat app enabling real-time interaction for up to four participants with integrated quiz features.
-        
       </div>
     )
   }
