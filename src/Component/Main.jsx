@@ -10,7 +10,8 @@ import Contact from "./Contact";
 import MainProjects from "./Project/MainProjects";
 import MainBlogs from "./Blog/MainBlogs";
 import MainAbout from "./MainAbout";
-import cv from "../assets/Gaurav_Kumar_Resume.pdf";
+// import cv from "../assets/Gaurav_Kumar_Resume.pdf";
+import cv from "../../public/Gaurav_Kumar_Resume.pdf"
 
 const Skills = React.lazy(() => import("./Skill/Skills"));
 
